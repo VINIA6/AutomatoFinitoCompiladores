@@ -21,6 +21,8 @@ def ler_Cadeia(estadoAtual, elementoAtualCadeia):
             return 1
         elif verificarCaractere(elementoAtualCadeia, oper):
             return -1
+        elif verificarCaractere(elementoAtualCadeia, letras):
+            return 0
     elif estadoAtual == -1:
         if verificarCaractere(elementoAtualCadeia, digitos):
             return 1
